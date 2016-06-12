@@ -1,0 +1,4 @@
+#!/bin/bash
+
+fis3 release debug --dest ../blade-server --watch --live --clean
+

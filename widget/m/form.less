@@ -1,0 +1,93 @@
+.ui-form {
+    .ui-form-item {
+        position: relative;
+        .clearfix;
+        .ui-form-explain {
+            position: absolute;
+            //top: 38px;
+            top: auto;
+            bottom: 10px;
+            right: 0;
+            left: 0;
+            display: none;
+            font-size: 12px;
+        }
+    }
+    .ui-form-item-error { 
+        .ui-input {
+            border-color: red;
+        }
+        .ui-form-explain {
+            color: red;
+            display: block;
+        }
+    }
+    
+    .ui-form-item-success  {
+        .ui-form-explain {
+            color: #47BC5E;
+            display: block;
+        }
+    }
+    
+    .ui-form-item-info  {
+        .ui-form-explain {
+            color: #666;
+            display: block;
+            a {
+                color: @logo-color;
+                &:hover {
+                    text-decoration: underline;
+                }
+            } 
+        }
+    }
+    
+    .ui-label, .ui-input-area {
+        float: left;
+        width: 270px;
+    }
+    
+    .ui-label {
+        width: 150px;
+        text-align: right;
+        font-size: 13px;
+        padding: 9px 0;
+        padding-right: 15px;
+        color: #666;
+    }
+    
+    .ui-input-area {
+        position: relative;
+        padding-bottom: 30px;
+    }
+    
+    .ui-input {
+        border-radius: 2px;
+        border: 1px solid #ccc;
+        padding: 11px 8px;
+        font-size: 14px;
+        width: 250px;
+        line-height: 1;
+        
+        //line-height: 30px;
+        &:disabled {
+            background: #f2f2f2;
+            border-color: #f2f2f2;
+            color: #999;
+        }
+    }
+    
+    .submit-button {
+        border: 0;
+        color: #fff;
+        line-height: 30px;
+        height: 30px;
+        padding: 0 15px;
+        border-radius: 2px;
+        &:disabled {
+            background: #f2f2f2;
+            color: #999;
+        }
+    }
+}

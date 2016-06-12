@@ -1,1 +1,9 @@
+<<<<<<< Updated upstream
 debug
+=======
+/node_modules
+
+/output
+
+/components
+>>>>>>> Stashed changes
