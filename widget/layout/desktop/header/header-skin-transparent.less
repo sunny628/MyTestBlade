@@ -1,0 +1,49 @@
+@import "/widget/m/variables.less";
+@import "/widget/m/helpers.less";
+#root-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+html #root-wrapper .header-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    .logo-area {
+        img {
+            display: none;
+        }
+        a:after {
+            content: '';
+            display: block;
+            width: 125px;
+            height: 36px;
+            background: url(/static/images/logo-w.png) no-repeat center transparent;
+        }
+    }
+    .slogan-area a {
+        background-image: url(/widget/layout/desktop/header/images/slogan-w.png);
+    }
+    .nav-area {
+        a, .l-sp, .t-sp, .text, .button .text, .button .iconfont {
+            color: #e4e4e4;
+            color: rgba(255, 255, 255, .8);
+            .inline-block-fix;
+        }
+        a, button .text, button .iconfont {
+            .transition(all .1s);
+        }
+        a:hover, .button:hover .text, .button:hover .iconfont {
+            color: #fff;
+        }
+        .l-sp {
+            border-left-color: #666;
+        }
+    }
+    .nav-area .dropdown-panel {
+        a:hover {
+            color: #222;
+        }
+    }
+}

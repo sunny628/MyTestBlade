@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>@yield('title') - FIS Laravel Demo</title>
+    <title>@yield('title') -qmjy</title>
     
     {{-- fis 脚本模块管理 --}}
     @framework('/static/js/mod.js')

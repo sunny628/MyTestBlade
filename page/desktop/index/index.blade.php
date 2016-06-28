@@ -1,8 +1,8 @@
 @extends('/widget/layout/desktop/frame.blade.php')
 
-@section('title', '欢迎使用 fis3 + laravel 解决方案')
+@section('title', '翻翻')
 @section('content')
-
+  
 
 @stop
 
